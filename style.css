@@ -27,20 +27,26 @@ body{
     width: 100px;
     height: 100px;
     display: flex;
+    transition: ease-in-out 0.5s;
 }
 .images img{
     width: 100%;
     margin-left: 2rem;
     margin-bottom: 2rem;
 }
-.box:hover img{
+.box:hover .images{
     color: white;
     margin-bottom: 4rem;
-   
 }
+
+.box:hover img{
+   transform: rotateX(360deg);
+}
+
+
 img{
     margin-bottom: 2rem;
     margin-left: 2rem;
-    transition: ease-in-out 2s;
-    transform: rotatex('360deg');
+    transition: ease-in-out 0.5s;
+    
 }
