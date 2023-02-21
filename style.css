@@ -1,0 +1,46 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    align-items: end;
+    border: 1px solid violet;
+    border-radius: 0.5rem;
+    height: 500px;
+    width: 500px;
+    transition: ease-in-out .3s;
+    
+}
+.box:hover{
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, .2);
+    background-color: violet;
+}
+.images{
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+.images img{
+    width: 100%;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.box:hover img{
+    color: white;
+    margin-bottom: 4rem;
+   
+}
+img{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    transition: ease-in-out 2s;
+    transform: rotatex('360deg');
+}
